@@ -10,6 +10,7 @@ namespace LogicalPrograms
     {
         public void Fibonacci()
         {
+            Console.WriteLine("Lets Create Fibonacci Series");
             Console.WriteLine("Enter length of Series - ");
             int length = Convert.ToInt32(Console.ReadLine());
             int firstnumber = 0,secondnumber=1, result=0;
