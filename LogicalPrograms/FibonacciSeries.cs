@@ -14,13 +14,13 @@ namespace LogicalPrograms
             Console.WriteLine("Enter length of Series - ");
             int length = Convert.ToInt32(Console.ReadLine());
             int firstnumber = 0,secondnumber=1, result=0;
-            Console.WriteLine(firstnumber + "\n" + secondnumber);
+            Console.WriteLine(firstnumber + "\t" + secondnumber);
             for (int i = 0; i < length; i++)
             {
                 result = firstnumber + secondnumber;
                 firstnumber = secondnumber;
                 secondnumber = result;
-                Console.WriteLine( result );
+                Console.WriteLine("\t" + result );
                
             }
         }
